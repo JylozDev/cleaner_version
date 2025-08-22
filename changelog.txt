@@ -1,0 +1,23 @@
+===========================
+ Jyloz Inventory Cleaner
+   Changelog - v1.0.0
+===========================
+
+🚀 Initial Release
+
+✨ Features:
+- Interactive console interface with ASCII banner
+- Version check system with online changelog support
+- Automatic parsing of QBCore items.lua
+- Detects items with missing images and logs them into no_images_items.txt
+- Detects unused images in the inventory folder
+- Option to automatically delete unused images
+
+🎨 Visuals:
+- Fancy colored console output using Rich + PyFiglet
+- Summary displayed in a styled results table
+- Final success panel after scan completes
+
+⚡ Notes:
+- This is the first public release of Jyloz Inventory Cleaner
+- Compatible with PyInstaller for .exe builds
